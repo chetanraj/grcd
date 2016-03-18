@@ -1,7 +1,9 @@
 ![grcd](img/grcd.png)
 
+> Use grcd to add grids to your website.
+
 [![Inline docs](http://inch-ci.org/github/chetanraj/grcd.svg?branch=master)](http://inch-ci.org/github/chetanraj/grcd) 
-[![demo included](https://img.shields.io/badge/demo-included-brightgreen.svg)](https://github.com/chetanraj/grcd)
+[![demo included](https://img.shields.io/badge/demo-included-brightgreen.svg)](http://codepen.io/chetanraj/full/yOgGxr/)
 [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/chetanraj/grcd)
 
 To install grcd with Bower:
