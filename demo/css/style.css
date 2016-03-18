@@ -1,0 +1,52 @@
+@font-face {
+		font-family:"Bonkers";
+		src: url("Bonkers.otf")
+}
+
+:focus {
+	outline: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Bonkers;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+	display: table;
+}
+
+.grcd {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #25A55F;
+	font-size: 6em;
+}
+
+.grcd + .width-container {
+	position: absolute;
+  bottom: 1em;
+  left: 1em;
+  width: 200px;
+  padding: 1em;
+  background: #ddd;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.label {
+	margin-bottom: 1em;
+}
+
+.grcd + .width-container .ui-slider-range {
+	background: #25A55F;
+}
+
+.grcd + .width-container .ui-slider-handle {
+	background: #999999;
+}

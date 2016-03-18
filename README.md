@@ -1,6 +1,8 @@
 ![grcd](img/grcd.png)
 
-[![Inline docs](http://inch-ci.org/github/chetanraj/grcd.svg?branch=master)](http://inch-ci.org/github/chetanraj/grcd) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/chetanraj/grcd)
+[![Inline docs](http://inch-ci.org/github/chetanraj/grcd.svg?branch=master)](http://inch-ci.org/github/chetanraj/grcd) 
+[![demo included](https://img.shields.io/badge/demo-included-brightgreen.svg)](demo/index.html)
+[![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/chetanraj/grcd)
 
 To install grcd with Bower:
 

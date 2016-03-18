@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>grcd</title>
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="../dist/jquery.grcd.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		
+		<link rel="stylesheet" href="css/style.css" media="screen" title="style" charset="utf-8">
+		<link rel="stylesheet" href="css/jquery-ui.min.css" >
+		
+		<script>
+			$(function () {
+				$.grcd();
+				
+				$( '.width' ).slider({
+		      orientation: "horizontal",
+		      range: "min",
+					min: 5,
+		      max: 64,
+		      value: 16,
+					step: 1,
+					slide: function( event, ui ) {
+		        $.grcd.remove();
+						
+						$.grcd({ width: ui.value });
+						
+						$('.width-label').text(ui.value + "px")
+		      }
+		    });
+				
+			});
+		</script>
+		
+	</head>
+	<body>
+		<div class="grcd">grcd</div>
+		<div class="width-container">
+			<div class="label">Width: <span class="width-label">16px<span></div>
+			<div class="width"></div>
+	</div>
+	</body>
+</html>
