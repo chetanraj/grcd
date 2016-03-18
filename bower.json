@@ -1,0 +1,21 @@
+{
+  "name": "grcd",
+  "version": "1.0.0",
+  "homepage": "https://github.com/chetanraj/grcd",
+  "authors": [
+    "Chetan Raj"
+  ],
+  "description": "Grids Everywhere!",
+  "main": "js/jquery.grcd.js",
+  "moduleType": [],
+  "keywords": [
+    "grid",
+    "grids",
+    "bootstrap",
+    "jquery"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "license": "MIT"
+}
