@@ -1,7 +1,10 @@
 (function ($, window, document) {
     'use strict';
 
-    // Main function
+    /*
+     * Main function
+     * @param {object} options - default/extend options.
+     */
     $.fn.grcd = function (options) {
 
         // make sure that only one grcd exists
@@ -11,7 +14,10 @@
         }
     };
 
-    // Init Function with the default/extend options
+    /*
+     * Init Function with the default/extend options.
+     * @param {object} options - default/extend options.
+     */
     $.fn.grcd.init = function (options) {
 
         // Define vars
