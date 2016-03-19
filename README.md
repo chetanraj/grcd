@@ -32,7 +32,7 @@ $(function () {
 
 will create a grid layer on your html page.
 
-### default options
+### optional width to set your website
 
 ```js
 $(function () {
