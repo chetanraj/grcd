@@ -30,9 +30,9 @@ $(function () {
 });
 ```
 
-will create a grid layer on your html page.
+> will create a grid layer on your html page.
 
-### optional width to set your website
+###### optional width to suite your html page
 
 ```js
 $(function () {
